@@ -1,0 +1,57 @@
+\hypertarget{main_8c}{}\doxysection{Файл src/main.c}
+\label{main_8c}\index{src/main.c@{src/main.c}}
+{\ttfamily \#include $<$malloc.\+h$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+Діаграма включених заголовочних файлів для main.\+c\+:
+% FIG 0
+\doxysubsection*{Макровизначення}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{main_8c_a552218c488f5db63e8073222fa5faa1f}{length\+\_\+of\+\_\+main\+\_\+array}}~5
+\end{DoxyCompactItemize}
+\doxysubsection*{Функції}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{main_8c_ad02c670d09ef3568081000afa69abd1e}{function\+\_\+of\+\_\+filling\+\_\+array}} (int, float $\ast$)
+\item 
+int \mbox{\hyperlink{main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Детальний опис}
+Програма призначена для разташування відьемних чисел вліво,додатніх вправо і нуль посередині. \begin{DoxyAuthor}{Автор}
+Shuriga Olexander 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Повертає}
+Змінну з кількістю пар таких чисел. 
+\end{DoxyReturn}
+\begin{DoxyVersion}{Версія}
+0.\+1 date 23.\+12.\+2020 
+\end{DoxyVersion}
+
+
+\doxysubsection{Опис макровизначень}
+\mbox{\Hypertarget{main_8c_a552218c488f5db63e8073222fa5faa1f}\label{main_8c_a552218c488f5db63e8073222fa5faa1f}} 
+\index{main.c@{main.c}!length\_of\_main\_array@{length\_of\_main\_array}}
+\index{length\_of\_main\_array@{length\_of\_main\_array}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{length\_of\_main\_array}{length\_of\_main\_array}}
+{\footnotesize\ttfamily \#define length\+\_\+of\+\_\+main\+\_\+array~5}
+
+
+
+\doxysubsection{Опис функцій}
+\mbox{\Hypertarget{main_8c_ad02c670d09ef3568081000afa69abd1e}\label{main_8c_ad02c670d09ef3568081000afa69abd1e}} 
+\index{main.c@{main.c}!function\_of\_filling\_array@{function\_of\_filling\_array}}
+\index{function\_of\_filling\_array@{function\_of\_filling\_array}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{function\_of\_filling\_array()}{function\_of\_filling\_array()}}
+{\footnotesize\ttfamily int function\+\_\+of\+\_\+filling\+\_\+array (\begin{DoxyParamCaption}\item[{int}]{length,  }\item[{float $\ast$}]{main\+Array }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{main.c@{main.c}!main@{main}}
+\index{main@{main}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Граф всіх викликів цієї функції\+:
+% FIG 1
